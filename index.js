@@ -30,7 +30,8 @@ const vh = (percentage)=>{
   }
   
   const ph = (id,percentage)=>{
-    const ParentHeight = document.getElementById(id).clientHeight;
+      const Element =  document.getElementById(id);
+    const ParentHeight = (Element==null)?visualViewport.height:Element.clientHeight;
     const decimal = percentage * 0.01;
     percentage = parseInt(percentage, 10);
   
@@ -45,7 +46,9 @@ const vh = (percentage)=>{
   }
   
   const pw = (id,percentage)=>{
-    const ParentWidth = document.getElementById(id).clientWidth;
+    const Element =  document.getElementById(id);
+    console.log(Element);
+    const ParentWidth = (Element==null)?visualViewport.width:Element.clientWidth;
     const decimal = percentage * 0.01;
     percentage = parseInt(percentage, 10);
   

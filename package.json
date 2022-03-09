@@ -1,0 +1,23 @@
+{
+  "name": "react-style-size",
+  "version": "1.0.0",
+  "description": "give your component height and width base on some specific component's or viewport's height and width",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "height",
+    "width",
+    "style",
+    "react-style",
+    "vh",
+    "vw",
+    "ph",
+    "pw",
+    "size",
+    "responsive"
+  ],
+  "author": "keyur kakadiya",
+  "license": "ISC"
+}

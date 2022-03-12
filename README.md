@@ -76,4 +76,8 @@ ReactDOM.render(
   </>,
   document.getElementById('root')
 );
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> cf2923ce23238ef900657a5ffc6e56fce12a2528

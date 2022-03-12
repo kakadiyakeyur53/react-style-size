@@ -1,6 +1,6 @@
 {
   "name": "react-style-size",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "give your component height and width base on some specific component's or viewport's height and width",
   "main": "index.js",
   "scripts": {
